@@ -78,7 +78,7 @@ You may experience issues when building the app due to a conflict with strings r
 1. Add the xmlns:tools line in the manifest tag
 
 <code>
-xmlns:tools="http://schemas.android.com/tools">
+xmlns:tools="http://schemas.android.com/tools"
 </code>
 
 2. Add tools:replace in the application tag
