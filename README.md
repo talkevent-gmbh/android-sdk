@@ -2,17 +2,19 @@
 
 # TalkeventSDK
 
-Mit Hilfe des TalKEventSDK können Sie die Video-Chat-Funktion von talkevent in Ihre Android-App einbauen. Die Benutzer Ihrer App können dann direkt über ihr iOS-Gerät per Videochat mit Ihren Beratern in Kontakt treten.
+Mit Hilfe des TalkeventSDK können Sie die Video-Chat-Funktion von talkevent in Ihre Android-App einbauen. Die Benutzer Ihrer App können dann direkt über ihr Android-Gerät per Videochat mit Ihren Beratern in Kontakt treten.
 Dazu müssen Sie registrierter Partner von talkevent sein. Weitere Informationen finden Sie unter https://www.talkevent.de.
 
 ## Installation
 
 Das Framework wird über jCenter (https://jcenter.bintray.com) eingebunden.
 
+// TODO: coming
+
 
 ## Abhängigkeiten
 
-Das TalkEventSDK benötigt mindestens Android 4.4
+Das TalkeventSDK benötigt mindestens Android 4.4
 
 ## Anbindung 
 
