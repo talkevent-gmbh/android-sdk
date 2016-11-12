@@ -30,10 +30,10 @@ import de.talkevent.android_sdk.Models.TalkeventSDK;
 
 Anschließend kann das Framework in Ihrem ViewController instanziiert und gestartet werden.
 
-<code>
+<pre><code>
 TalkeventSDK talkevent = new TalkeventSDK(thisActivity);
 talkevent.open()
-</code>
+</code></pre>
 
 
 ## Einstellungsmöglichkeiten
@@ -77,16 +77,20 @@ You may experience issues when building the app due to a conflict with strings r
 
 1. Add the xmlns:tools line in the manifest tag
 
-<code>
+<pre><code>
+
 <manifest
     ...
     xmlns:tools="http://schemas.android.com/tools">
-</code>
+
+</code></pre>
 
 2. Add tools:replace in the application tag
 
-<code>
+<pre><code>
+
 <application
         ...
         tools:replace="android:label">
-</code>
+
+</code></pre>
