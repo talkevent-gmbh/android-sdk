@@ -76,21 +76,11 @@ Diese Funktion bezieht sich auf die VideoView und setzt die Farbe des Auflege-Bu
 You may experience issues when building the app due to a conflict with strings replacement. It can be fixed following these steps:
 
 1. Add the xmlns:tools line in the manifest tag
-
 <pre><code>
-
-<manifest
-    ...
-    xmlns:tools="http://schemas.android.com/tools">
-
-</code></pre>
+xmlns:tools="http://schemas.android.com/tools">
+</code>
 
 2. Add tools:replace in the application tag
-
-<pre><code>
-
-<application
-        ...
-        tools:replace="android:label">
-
-</code></pre>
+<code>
+tools:replace="android:label"
+</code>
