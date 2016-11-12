@@ -37,7 +37,6 @@ TalkeventSDK talkevent = new TalkeventSDK(thisActivity);
 talkevent.open()
 </code></pre>
 
-
 ## Einstellungsmöglichkeiten
 
 Das Design des Frameworks lässt sich dem Design Ihrer App anpassen. Hierfür können folgende Eigenschaften gesetzt werden, <b>bevor</b> die Funktion 'talkevent.open()' aufgerufen wird.
@@ -89,18 +88,15 @@ xmlns:tools="http://schemas.android.com/tools"
 tools:replace="android:label"
 </code>
 
-
 ## Manual installation
 1. Add the file android-talkevent-sdk.aar to your libs directory
 
 2. Add it to your app dependencies in the build.gradle file. Make sure the libs directory is included in the fileTree
 
-<pre>
-<code>
+<pre><code>
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     ...
     compile(name:'android-talkevent-sdk', ext:'aar')
 }
-</code>
-</pre>
+</code></pre>
