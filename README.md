@@ -5,16 +5,9 @@
 Mit Hilfe des TalkeventSDK können Sie die Video-Chat-Funktion von talkevent in Ihre Android-App einbauen. Die Benutzer Ihrer App können dann direkt über ihr Android-Gerät per Videochat mit Ihren Beratern in Kontakt treten.
 Dazu müssen Sie registrierter Partner von talkevent sein. Weitere Informationen finden Sie unter https://www.talkevent.de.
 
-## jCenter Installation
-
-Das Framework wird über jCenter (https://jcenter.bintray.com) eingebunden.
-
-// TODO: coming
-
-## Manual installation
-1. Add the file "android-talkevent-sdk.aar" to your /libs directory
-
-2. Add it to your app dependencies in the "build.gradle file". Make sure the /libs directory is included in the fileTree
+## Installation
+1. Fügen Sie die Datei "android-talkevent-sdk.aar" zu dem /libs Ordner Ihres Projektes hinzu.
+2. Fürgen Sie das Framework zu den dependenceis in der Datei "build.gradle file" hinzu. Bitte stellen Sie sicher, dass der /libs Ordner in dem fileTree enthalten ist.
 
 <pre><code>
 dependencies {
@@ -27,10 +20,9 @@ dependencies {
 ## Abhängigkeiten
 
 Das TalkeventSDK benötigt mindestens Android 4.4.
+Die Integration wurde mit Android Studio und Gradle getestet. 
 
 ## Anbindung 
-
-
 
 ### Start des Videochats
 
@@ -86,15 +78,15 @@ Diese Funktion bezieht sich auf die VideoView und setzt die Farbe des Auflege-Bu
 
 ## Troubleshooting
 
-You may experience issues when building the app due to a conflict with strings replacement. It can be fixed following these steps:
+Es kann beim Builden der Anwendung zu Problemen mit String-Ersetzungen kommen. Bitte befolgen Sie in diesem Fall folgenden Schritte: 
 
-1. Add the xmlns:tools line in the manifest tag
+1. Fürgen Sie die Zeile `xmlns:tools` in das "manifest"-Tag ein
 
 <code>
 xmlns:tools="http://schemas.android.com/tools"
 </code>
 
-2. Add tools:replace in the application tag
+2. Fürgen Sie `tools:replace` in das "application"-Tag ein:
 
 <code>
 tools:replace="android:label"
