@@ -47,6 +47,14 @@ Das Design des Frameworks l채sst sich dem Design Ihrer App anpassen. Hierf체r k�
 
 Folgende Funktionen stehen hier zur Verf체gung:
 
+### setApiUrl
+
+Definieren Sie die URL, die f체r die API-Anfragen genutzt wird.
+
+### setKurentoRoomUrl
+
+Definieren Sie die Websocket-URL f체r Ihren Kurento-Room.
+
 ### setClientNumber
 
 Zur Anbindung an ein Beraterfenster muss hier eine g체ltige Mandantennummer (BLZ) oder Lizenzschl체ssel des Chat-Raums hinterlegt werden.
