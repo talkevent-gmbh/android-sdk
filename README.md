@@ -5,24 +5,21 @@
 Mit Hilfe des TalkeventSDK können Sie die Video-Chat-Funktion von talkevent in Ihre Android-App einbauen. Die Benutzer Ihrer App können dann direkt über ihr Android-Gerät per Videochat mit Ihren Beratern in Kontakt treten.
 Dazu müssen Sie registrierter Partner von talkevent sein. Weitere Informationen finden Sie unter https://www.talkevent.de.
 
-## Installation
+## Maven Installation
 
-Add the maven repo to your build.gradle file in the root directory of the project.
-
+1. Add the following Maven repository to your build.gradle file in the root directory of the project:
 <pre><code>
 repositories {
-       jcenter()
        maven {
            url 'https://github.com/talkevent-gmbh/android-sdk/raw/master/mvn-repo'
        }
    }
 </code></pre>
 
-Then add the module dependency in your app's build.gradle file:
-
+2. Then add the module dependency in your app's build.gradle file:
 <pre><code>
 dependencies {
-    compile 'de.talkevent:talkevent-sdk:0.1.0'
+    compile 'de.talkevent:talkevent-sdk:{release code}'
 }
 </code></pre>
 
@@ -33,8 +30,6 @@ dependencies {
 
 <pre><code>
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    ...
     compile(name:'android-talkevent-sdk', ext:'aar')
 }
 </code></pre>
