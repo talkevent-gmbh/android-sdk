@@ -6,35 +6,4 @@
   <artifactId>talkevent-sdk</artifactId>
   <version>0.1.1</version>
   <packaging>aar</packaging>
-
-  <dependencies>
-
-      <dependency>
-          <groupId>fi.vtt.nubomedia</groupId>
-          <artifactId>webrtcpeer-android</artifactId>
-          <version>1.1.1</version>
-      </dependency>
-
-      <!-- https://mvnrepository.com/artifact/fi.vtt.nubomedia/jsonrpc-ws-android -->
-      <dependency>
-          <groupId>fi.vtt.nubomedia</groupId>
-          <artifactId>jsonrpc-ws-android</artifactId>
-          <version>1.1.0</version>
-      </dependency>
-
-      <!-- https://mvnrepository.com/artifact/fi.vtt.nubomedia/utilities-android -->
-      <dependency>
-          <groupId>fi.vtt.nubomedia</groupId>
-          <artifactId>utilities-android</artifactId>
-          <version>1.0.2</version>
-      </dependency>
-
-    <!-- https://mvnrepository.com/artifact/fi.vtt.nubomedia/kurento-room-client-android -->
-    <dependency>
-        <groupId>fi.vtt.nubomedia</groupId>
-        <artifactId>kurento-room-client-android</artifactId>
-        <version>1.1.2</version>
-    </dependency>
-
-  </dependencies>
 </project>
