@@ -24,13 +24,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.1'
 
-    compile 'de.talkevent:talkevent-sdk:0.1.0'
-
-    //compile 'https://github.com/talkevent-gmbh/android-sdk/tree/master/libs/android-talkevent-sdk.aar'
-    //compile 'https://github.com/talkevent-gmbh/android-sdk/raw/master/libs/android-talkevent-sdk.aar'
-    //compile 'com.github.talkevent-gmbh.android-sdk:0.1'
-    //compile 'com.github.talkevent-gmbh:android-sdk:0.1'
-    //compile 'com.github.talkevent-gmbh:android-sdk:0.1@aar'
-    //compile 'com.github.talkevent-gmbh:android-sdk:+'
-    //compile(name:'android-talkevent-sdk', ext:'aar')
+    compile 'de.talkevent:talkevent-sdk:0.0.1'
 }
