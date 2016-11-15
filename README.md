@@ -16,9 +16,13 @@ repositories {
    }
 </code></pre>
 
-2. Then add the module dependency in your app's build.gradle file:
+2. Then add the module and its dependencies in your app's build.gradle file:
 <pre><code>
 dependencies {
+    compile 'fi.vtt.nubomedia:jsonrpc-ws-android:1.1.0'
+    compile 'fi.vtt.nubomedia:utilities-android:1.0.2'
+    compile 'fi.vtt.nubomedia:webrtcpeer-android:1.1.1'
+    compile 'fi.vtt.nubomedia:kurento-room-client-android:1.1.2'
     compile 'de.talkevent:talkevent-sdk:{release tag}'
 }
 </code></pre>
@@ -30,6 +34,10 @@ dependencies {
 
 <pre><code>
 dependencies {
+    compile 'fi.vtt.nubomedia:jsonrpc-ws-android:1.1.0'
+    compile 'fi.vtt.nubomedia:utilities-android:1.0.2'
+    compile 'fi.vtt.nubomedia:webrtcpeer-android:1.1.1'
+    compile 'fi.vtt.nubomedia:kurento-room-client-android:1.1.2'
     compile(name:'android-talkevent-sdk', ext:'aar')
 }
 </code></pre>
