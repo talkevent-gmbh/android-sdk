@@ -17,11 +17,13 @@ repositories {
 </code></pre>
 
 2. Then add the module in your app build.gradle file:
-<pre><code>
+<pre>
+<code>
 dependencies {
-    compile 'de.talkevent:talkevent-sdk:{release tag}'
+       compile 'de.talkevent:talkevent-sdk:{release tag}'
 }
-</code></pre>
+</code>
+</pre>
 
 
 ## Installation
