@@ -8,33 +8,31 @@ Dazu müssen Sie registrierter Partner von talkevent sein. Weitere Informationen
 ## Maven Installation
 
 1. Add the following Maven repository to your build.gradle file in the root directory of the project:
-<pre><code>
+```
 repositories {
        maven {
            url 'https://github.com/talkevent-gmbh/android-sdk/raw/master/mvn-repo'
        }
    }
-</code></pre>
+```
 
 2. Then add the module in your app build.gradle file:
-<pre>
-<code>
+```
 dependencies {
        compile 'de.talkevent:talkevent-sdk:{release tag}'
 }
-</code>
-</pre>
+```
 
 
 ## Installation
 1. Fügen Sie die Datei "android-talkevent-sdk.aar" zu dem /libs Ordner Ihres Projektes hinzu.
 2. Fürgen Sie das Framework zu den dependenceis in der Datei "build.gradle file" hinzu. Bitte stellen Sie sicher, dass der /libs Ordner in dem fileTree enthalten ist.
 
-<pre><code>
+```
 dependencies {
     compile(name:'android-talkevent-sdk', ext:'aar')
 }
-</code></pre>
+```
 
 ## Abhängigkeiten
 
@@ -49,16 +47,16 @@ Nach erfolgreicher Einbindung können Sie in Ihrer App nun an beliebiger Stelle 
 
 In dem ViewController muss das Framework zunächst mit folgendem Befehl importiert werden:
 
-<code>
+```java
 import de.talkevent.android_sdk.Models.TalkeventSDK;
-</code>
+```
 
 Anschließend kann das Framework in Ihrem ViewController instanziiert und gestartet werden.
 
-<pre><code>
+```java
 TalkeventSDK talkevent = new TalkeventSDK(thisActivity);
 talkevent.open()
-</code></pre>
+```
 
 ## Einstellungsmöglichkeiten
 
@@ -109,12 +107,12 @@ Es kann beim Builden der Anwendung zu Problemen mit String-Ersetzungen kommen. B
 
 1. Fürgen Sie die Zeile `xmlns:tools` in das "manifest"-Tag ein
 
-<code>
+```xml
 xmlns:tools="http://schemas.android.com/tools"
-</code>
+```
 
 2. Fürgen Sie `tools:replace` in das "application"-Tag ein:
 
-<code>
+```xml
 tools:replace="android:label"
-</code>
+```
