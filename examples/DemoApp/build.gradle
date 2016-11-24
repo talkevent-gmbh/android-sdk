@@ -16,6 +16,9 @@ allprojects {
     repositories {
         jcenter()
         maven {
+            url "https://jitpack.io"
+        }
+        maven {
             url 'https://github.com/talkevent-gmbh/android-sdk/raw/master/mvn-repo'
         }
     }
