@@ -13,6 +13,9 @@ Wir empfehlen die Einbindung über das hier hinterlegte Maven-Repository.
 ```
 repositories {
        maven {
+           url "https://jitpack.io"
+       }
+       maven {
            url 'https://github.com/talkevent-gmbh/android-sdk/raw/master/mvn-repo'
        }
    }

@@ -9,14 +9,10 @@ import de.talkevent.android_sdk.Models.TalkeventSDK;
 public class MainActivity extends AppCompatActivity {
 
     TalkeventSDK talkevent;
+
+    String clientNumber = "";
     String apiUrl = "";
     String kurentoRoomUrl = "";
-
-    // room: http://dev.sparkassen-chat.de/121.httpwwwvcappde/THP_index.htm
-    //String clientNumber = "vcapp";
-
-    // room: http://dev.sparkassen-chat.de/121.httpwwwambientinnovationde/THP_index.htm
-    String clientNumber = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         talkevent.setClientNumber(clientNumber);
         talkevent.setApiUrl(apiUrl);
         talkevent.setKurentoRoomUrl(kurentoRoomUrl);
+
         talkevent.open();
 
     }
