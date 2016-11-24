@@ -9,9 +9,14 @@ import de.talkevent.android_sdk.Models.TalkeventSDK;
 public class MainActivity extends AppCompatActivity {
 
     TalkeventSDK talkevent;
-    String clientNumber = "";
-    String apiUrl = "";
-    String kurentoRoomUrl = "";
+    String apiUrl = "https://dev.sparkassen-chat.de/cgi-bin/121vcapp.pl?";
+    String kurentoRoomUrl = "wss://video.sparkassen-chat.de/room";
+
+    // room: http://dev.sparkassen-chat.de/121.httpwwwvcappde/THP_index.htm
+    //String clientNumber = "vcapp";
+
+    // room: http://dev.sparkassen-chat.de/121.httpwwwambientinnovationde/THP_index.htm
+    String clientNumber = "vcambient";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
