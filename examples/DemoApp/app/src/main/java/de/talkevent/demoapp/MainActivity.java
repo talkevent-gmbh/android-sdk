@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     String clientNumber = "";
     String apiUrl = "";
     String kurentoRoomUrl = "";
+    String group = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         talkevent.setClientNumber(clientNumber);
         talkevent.setApiUrl(apiUrl);
         talkevent.setKurentoRoomUrl(kurentoRoomUrl);
+        talkevent.setGroup(group);
 
         talkevent.open();
 
