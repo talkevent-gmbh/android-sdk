@@ -84,6 +84,11 @@ Definieren Sie die Websocket-URL für Ihren Kurento-Room.
 Zur Anbindung an ein Beraterfenster muss hier eine gültige Mandantennummer (BLZ) oder Lizenzschlüssel des Chat-Raums hinterlegt werden.
 <b>Einer dieser Parameter muss eingestellt sein.</b>
 
+### setGroup
+
+Ein Parameter zur Einordnung der Benutzer in Gruppen.
+Bsp.: Gruppe 'KundenCenter' & Gruppe 'BusinessLine'
+
 ### setBackgroundColor
 
 Definieren Sie die Hintergrundfarbe des Frameworks.
